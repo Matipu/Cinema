@@ -1,0 +1,43 @@
+.wolneMiejsce
+{
+	height: 50px;
+	width: 50px;
+	margin: 2px;	
+	background-color: #ddd;
+	border: 1px black solid;
+
+}
+
+.zajeteMiejsce
+{
+	height: 50px;
+	width: 50px;
+	margin: 2px;	
+	background-color: #a55;
+	border: 1px black solid;
+
+}
+.kolumna
+{
+	float: left;
+}
+.numerRzedu
+{
+	height: 50px;
+	width: 50px;
+	margin: 2px;
+	padding:  15px 0px 35px 15px;
+
+}
+.przyciskDalej
+{
+	margin-top:30px;
+
+
+}
+.podgladSali
+{
+	margin-top:30px;
+ 	display:inline-block;
+
+}

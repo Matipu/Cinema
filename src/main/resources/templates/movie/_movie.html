@@ -1,5 +1,4 @@
-
-
+<!-- 
 <div th:fragment="content (movie)">
     <div class="col l2 ">
         <img th:src="@{/moviePictures/{title}.jpg(title=${movie.title})}" width="100" height="100"/>      
@@ -13,3 +12,189 @@
         <h5> <span th:text="${movie.genre.title}">Unknown</span><br/></h5>
     </div>
 </div>
+-->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thmeleaf.org"
+      >
+   
+<head>
+	<meta charset='utf-8'/>
+
+	<link rel="stylesheet" type="text/css" media="all"  href="../bootstrap/css/bootstrap.min.css" th:href="@{/bootstrap/css/bootstrap.min.css}" />
+	<link rel="stylesheet" type="text/css" media="all"  href="../css/glowneMenuPoziome.css" th:href="@{/css/glowneMenuPoziome.css}" />
+	<link rel="stylesheet" type="text/css" media="all"  href="../css/ogolne.css" th:href="@{/css/ogolne.css}" />
+	<link rel="stylesheet" type="text/css" media="all"  href="../css/kontenerZFilmami.css" th:href="@{/css/kontenerZFilmami.css}" />
+
+</head>
+
+
+<div id='cssmenu'>
+
+<ul>
+
+	<div class="col-md-8">
+		<li class='active'><a href='stronaGlowna.html'><span>Strona główna</span></a></li>
+
+		<li><a href='najlepsze.html'><span>Najlepsze filmy</span></a></li>
+
+		<li><a href='cennik.html'><span>Cennik</span></a></li>
+
+		<li><a href='kontakt.html'><span>Kontakt</span></a></li>
+		<li class='last'><a href='forum.html'><span>Forum</span></a></li>
+	</div>
+	<div class="col-md-4">
+		 <form class="form-inline" role="form">
+  		 <div class="form-group">
+  			 <input class="form-control" id="exampleInputPassword1" placeholder="Nazwa filmu"/>
+ 		 </div>
+ 		 <button type="submit" class="btn btn-default">Wyszukaj film</button>
+		</form>
+	</div>
+</ul>
+</div>
+
+
+<body>
+<div class="row">
+	<div class="col-md-8">
+		<div class="kontenerNaFilm">
+
+			<div class="kontenerNaZdjecie" 	style="float:left">
+			 	<img src="images/plakaty/1.jpg" alt="Plakat" height="350px" />
+			</div>
+			<a href="szczegolyFilmu.html" class="tytulFilmu">
+				<h1>
+					Batman i Robin
+				 </h1>
+			</a>
+			<p>
+				2 godz. 5 min.
+			</p>
+			<div style="height:100px; overflow: hidden; margin-bottom: 25px;">
+				<p>
+					Człowiek-Nietoperz i jego młodzi sojusznicy krzyżują zbrodnicze plany dwojga szaleńców.
+				</p>
+			</div>
+			<p>
+				reżyseria: Joel Schumacher
+			</p>
+			<p>
+				scenariusz: Akiva Goldsman
+			</p>
+			<p>
+				gatunek:
+				<span class="gatunek">
+					Fantasy/Akcja
+				</span>
+			</p>
+
+		</div>
+
+		<div class="kontenerNaFilm">
+
+			<div class="kontenerNaZdjecie" 	style="float:left">
+			 	<img src="images/plakaty/2.jpg" alt="Plakat" height="350px" />
+			</div>
+			<a href="film/2" class="tytulFilmu">
+				<h1>
+					Black Samurai (1977)
+				 </h1>
+			</a>
+			<p>
+				1 godz. 15 min.
+			</p>
+			<div style="height:100px; overflow: hidden; margin-bottom: 25px;">
+				<p>
+					Robert Sand, agent specjalny tajnej organizacji D.R.A.G.O.N., gra w tenisa z piękną czarnoskórą dziewczyną, gdy nagle zwierzchnicy zlecają mu uratowanie porwanej Chinki (tak się składa, że to była miłość Sanda) - córki wpływowego dalekowschodniego ambasadora. Za porwaniem stoi człowiek, który każe nazywać siebie Czarodziejem (Warlock). Handel narkotykami na szeroką skalę, rytualne morderstwa voodoo, walki z Indianami, potyczki z karłami, latające plecaki (takie jak w "Operacji Piorun" - 007), strzelający samochód, walka z jastrzębiem - to zaledwie początek tego kompletnie kuriozalnego filmu.
+				</p>
+			</div>
+			<p>
+				reżyseria: Al Adamson
+			</p>
+			<p>
+				scenariusz:  B. Readick
+			</p>
+			<p>
+				gatunek:
+				<span class="gatunek">
+					Fantasy/Akcja
+				</span>
+			</p>
+
+		</div>
+
+		<div class="kontenerNaFilm">
+
+			<div class="kontenerNaZdjecie" 	style="float:left">
+			 	<img src="images/plakaty/3.jpg" alt="Plakat" height="350px" />
+			</div>
+			<a href="film/3" class="tytulFilmu">
+				<h1>
+					Cheerleaderki Ninja
+				 </h1>
+			</a>
+			<p>
+				1 godz. 33 min.
+			</p>
+			<div style="height:100px; overflow: hidden; margin-bottom: 25px;">
+				<p>
+					Ten film nie ma jeszcze zarysu fabuły.
+				</p>
+			</div>
+			<p>
+				reżyseria: David Presley
+			</p>
+			<p>
+				scenariusz: David Presley
+			</p>
+			<p>
+				gatunek:
+				<span class="gatunek">
+					Komedia
+				</span>
+			</p>
+
+		</div>
+
+<div class="verticalMargin">
+<div class="center">
+  <ul class="pagination">
+    <li><a href="#">«</a></li>
+    <li><a class="active" href="strona/1">1</a></li>
+    <li><a href="strona/2">2</a></li>
+    <li><a href="strona/3">3</a></li>
+    <li><a href="strona/4">4</a></li>
+    <li><a href="strona/5">5</a></li>
+    <li><a href="strona/6">6</a></li>
+    <li><a href="strona/7">7</a></li>
+    <li><a href="strona/2">»</a></li>
+  </ul>
+</div>
+</div>
+
+	</div>
+	<div class="col-md-4" style="position:relative; left:-10px;">
+	<h2>Nie jesteś zalogowany? Zaloguj się!!</h2>
+	<form>
+
+ 	 	<div class="form-group">
+ 	 		  <label for="exampleInputEmail1">Email address</label>
+ 	 		  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"/>
+ 	 	</div>
+
+ 	 	<div class="form-group">
+ 	 		  <label for="exampleInputPassword1">Password</label>
+ 	 		  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
+  		</div>
+		<h5>
+			<a href="Rejestracja.html">Zarejestruj się</a>
+		</h5>
+  		<button type="submit" class="btn btn-default">Zaloguj się</button>
+		</form>
+	</div>
+</div>
+
+</body>
+
+</html>

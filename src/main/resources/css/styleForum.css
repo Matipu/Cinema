@@ -1,0 +1,90 @@
+body{
+	background-color: #eee;
+}
+
+.naglowek
+{
+	width: 100%;
+	background-color: #fff;
+	margin-botton: 10px;
+	padding: 10px;
+}
+
+.tresc
+{
+	padding: 15px;
+}
+
+.NaglowekTematu
+{
+	color: #d33;
+	font-size:30px;
+	border-bottom: 1px #aaa solid;
+}
+
+.TrescTematu
+{
+
+margin-top:30px;
+}
+
+.temat
+{
+	padding:10px;
+	margin-top:10px;
+	position: relative;
+	background-color: #fff;
+	width: 80%;
+	left:10%;
+}
+.odpowiedz
+{
+	padding:10px;
+	margin-top:30px;
+	position: relative;
+	background-color: #fff;
+	width: 80%;
+	left:10%;
+}
+.podpis
+{
+	position: relative;
+	right:-90px;
+	color: #888;
+	margin-top:20px;
+}
+
+.FormularzOdpowiedzi
+{
+	position: relative;
+	margin-top:20px;
+	width: 80%;
+	left:10%;
+}
+.TekstDodawaniaTematu
+{
+	color: #d33;
+	font-size:30px;
+text-decoration:none;
+
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
