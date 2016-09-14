@@ -1,0 +1,26 @@
+.custom-container {
+    padding-bottom: 50px;
+}
+
+
+.inputError {
+    color: red;
+    float: right;
+}
+
+.float-right {
+    float: right;
+}
+
+a {
+    /*color: black;*/
+}
+
+a:hover {
+    text-decoration: none;
+    /*color: black;*/
+}
+
+.header {
+    margin-top: 10%;
+}

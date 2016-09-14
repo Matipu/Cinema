@@ -1,0 +1,10 @@
+controller\HomeController.class
+model\Role.class
+model\Ticket.class
+model\Employee.class
+model\Hall.class
+model\Showing.class
+model\Movie.class
+model\User.class
+model\Genre.class
+model\Seat.class
